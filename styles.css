@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+  background: #fafafa;
+}
+
+#container {
+  max-width: 900px;
+  margin: 1em auto;
+  text-align: center;
+}
+
+#viz svg {
+  overflow: visible;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.chart-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-anchor: middle;
+}
+
+.axis-label {
+  font-size: 12px;
+  text-anchor: middle;
+}
+
+.line {
+  fill: none;
+  stroke-width: 2px;
+}
+
+.tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 4px;
+  font-size: 12px;
+  border-radius: 3px;
+}
